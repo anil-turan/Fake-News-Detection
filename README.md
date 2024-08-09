@@ -4,7 +4,7 @@ The project includes a machine learning model and a PyQt5-based interface to det
 
 Code Explanation
 
-main.py
+**main.py**
 
 main.py creates a PyQt5 user interface for entering news text and checking whether it is fake or real using a pre-trained model.
 
@@ -14,7 +14,7 @@ PyQt5: For creating the graphical user interface (GUI).
 
 Pickle: To load the pre-trained model and vectorizer.
 
-train_and_save_model.py
+**train_and_save_model.py**
 
 train_and_save_model.py trains a Logistic Regression model to detect fake news using a dataset of fake and real news articles. It then saves the trained model and the TF-IDF vectorizer for later use.
 
