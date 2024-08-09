@@ -3,7 +3,9 @@ The project includes a machine learning model and a PyQt5-based interface to det
 
 
 Code Explanation
+
 main.py
+
 main.py creates a PyQt5 user interface for entering news text and checking whether it is fake or real using a pre-trained model.
 
 Technologies Used:
@@ -19,5 +21,7 @@ train_and_save_model.py trains a Logistic Regression model to detect fake news u
 Technologies Used:
 
 Pandas: For data manipulation and analysis.
+
 Scikit-learn: For machine learning, including training the model and transforming the text data.
+
 Pickle: To save the trained model and vectorizer.
