@@ -18,7 +18,7 @@ Pickle: To load the pre-trained model and vectorizer.
 
 train_and_save_model.py trains a Logistic Regression model to detect fake news using a dataset of fake and real news articles. It then saves the trained model and the TF-IDF vectorizer for later use.
 
-Technologies Used:
+**Technologies Used:**
 
 Pandas: For data manipulation and analysis.
 
